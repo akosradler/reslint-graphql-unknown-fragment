@@ -4,6 +4,5 @@ export const contentSetFragment = gql`
   fragment ContentSet on ContentSet {
     id
     title
-    type
   }
 `
