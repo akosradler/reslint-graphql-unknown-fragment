@@ -1,0 +1,14 @@
+module.exports = {
+  client: {
+    service: {
+      name: "se-api",
+      url: "http://localhost:4000/graphql",
+      headers: {
+        authorization:
+          "Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJzaWQiOiJrTlA4RTRKanJJZHZmM1NSQ3I0VllBIiwic3ViIjoiNzFkMmQ2YTUtYzdkNC00YWI3LWE0YWMtMjI4ZTM4NDU0MTE1IiwiYXV0aF90aW1lIjoiMTYxODMxMzA1NiIsImlkcCI6ImxvY2FsIiwicHJpbWFyeXNpZCI6IjcxZDJkNmE1LWM3ZDQtNGFiNy1hNGFjLTIyOGUzODQ1NDExNSIsImVtYWlsIjoidGFAaWwuY29tIiwiZW1haWxfdmVyaWZpZWQiOiJ0cnVlIiwibmFtZSI6IlRlYWNoZXIgU2UgQWxwaGEiLCJ1bmlxdWVfbmFtZSI6IlRlYWNoZXIgU2UgQWxwaGEiLCJnaXZlbl9uYW1lIjoiVGVhY2hlciIsImZhbWlseV9uYW1lIjoiU2UgQWxwaGEiLCJtaWRkbGVfbmFtZSI6IiIsInJvbGUiOlsiTm9vcmRob2ZmVXNlciIsIlRlYWNoZXJzIiwiUExQLUZlYXR1cmVzLVJvbGVzLkFscGhhV2F2ZSJdLCJzZWxlY3RlZHNjaG9vbCI6IjQzMDA3YjMxLTQxYmEtNGM4OS04YzNkLWJmZGFkODBmY2RmMCIsImFjdE9yZ0lkIjoiNDMwMDdiMzEtNDFiYS00Yzg5LThjM2QtYmZkYWQ4MGZjZGYwIiwiaXNfdGVhY2hlciI6InRydWUiLCJhbXIiOiJwd2QiLCJuYmYiOjE2MjQxMjAwMjEsImV4cCI6MTkzOTY1MjgyMSwiaXNzIjoiaHR0cHM6Ly9pbC1hdXRoZW50aWNhdGlvbi13ZWItbm9vcmRob2ZmLmF6dXJld2Vic2l0ZXMubmV0IiwiYXVkIjoiaWwtbGVhcm5pbmctcGxhdGZvcm1zIn0.Kw8mWAGVpYa8h1ImVbvDqrbn0mIC3_9upoBtw8GlAmPdfQdDTdDc_Ww0kUlRUyEsJIEkvbYAyS-QF2P5DVCFdUUraB9nHtIZ7nGU5dgI3SMAUHVLVFeNn35nnbz-UETfxNugAiV2FhXSZpc3i-5yJXghIxETKNzmtmuBg2GeDRQZ-perWMTbHT0ObSQgmQjzT45LdKPT6olnqWnufywr6VYDILAnB-mA3pFbpAO5x8sJ8nsd21J1pgPtJNRc9vxQdo6PHEUK9t704TBYD8fdZZqHA2FjpXhK-_Ilk2RzYAAAQgOedw08au0R7WhQc-hkxCXFncM3urNsZIAvhDUAvQ",
+      },
+      // optional disable SSL validation check
+      skipSSLValidation: true,
+    },
+  },
+};
