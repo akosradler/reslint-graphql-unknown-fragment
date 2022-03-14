@@ -29,6 +29,7 @@ specifiers:
   dotenv: ^10.0.0
   dotenv-expand: ^5.1.0
   eslint: ^8.3.0
+  eslint-config-prettier: ^8.5.0
   eslint-config-react-app: ^7.0.0
   eslint-plugin-prettier: ^4.0.0
   eslint-plugin-react: ^7.28.0
@@ -98,8 +99,9 @@ dependencies:
   dotenv: 10.0.0
   dotenv-expand: 5.1.0
   eslint: 8.11.0
+  eslint-config-prettier: 8.5.0_eslint@8.11.0
   eslint-config-react-app: 7.0.0_39394221a84a0125a51a7138e62e9739
-  eslint-plugin-prettier: 4.0.0_eslint@8.11.0+prettier@2.5.1
+  eslint-plugin-prettier: 4.0.0_c9d5adccfd1d43a8805a302169f6a967
   eslint-plugin-react: 7.29.4_eslint@8.11.0
   eslint-webpack-plugin: 3.1.1_eslint@8.11.0+webpack@5.70.0
   file-loader: 6.2.0_webpack@5.70.0
@@ -5544,6 +5546,15 @@ packages:
       source-map: 0.6.1
     dev: false
 
+  /eslint-config-prettier/8.5.0_eslint@8.11.0:
+    resolution: {integrity: sha512-obmWKLUNCnhtQRKc+tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX+AuPj1YSGSQIHl1pnDHZR0Q==}
+    hasBin: true
+    peerDependencies:
+      eslint: '>=7.0.0'
+    dependencies:
+      eslint: 8.11.0
+    dev: false
+
   /eslint-config-react-app/7.0.0_39394221a84a0125a51a7138e62e9739:
     resolution: {integrity: sha512-xyymoxtIt1EOsSaGag+/jmcywRuieQoA2JbPCjnw9HukFj9/97aGPoZVFioaotzk1K5Qt9sHO5EutZbkrAXS0g==}
     engines: {node: '>=14.0.0'}
@@ -5666,7 +5677,7 @@ packages:
       minimatch: 3.1.2
     dev: false
 
-  /eslint-plugin-prettier/4.0.0_eslint@8.11.0+prettier@2.5.1:
+  /eslint-plugin-prettier/4.0.0_c9d5adccfd1d43a8805a302169f6a967:
     resolution: {integrity: sha512-98MqmCJ7vJodoQK359bqQWaxOE0CS8paAz/GgjaZLyex4TTk3g9HugoO89EqWCrFiOqn9EVvcoo7gZzONCWVwQ==}
     engines: {node: '>=6.0.0'}
     peerDependencies:
@@ -5678,6 +5689,7 @@ packages:
         optional: true
     dependencies:
       eslint: 8.11.0
+      eslint-config-prettier: 8.5.0_eslint@8.11.0
       prettier: 2.5.1
       prettier-linter-helpers: 1.0.0
     dev: false
